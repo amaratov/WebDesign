@@ -1,0 +1,171 @@
+body {
+	background-image: url(images/bpic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	color: white;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+
+#wrap {
+	margin: auto;
+	width: 1010px;
+	background-color: #ffffff75;
+	padding: 10px;
+	border-color: silver;
+	border-radius: 2%;
+} 
+
+nav ul {
+	list-style: none;
+	padding: 1px;
+
+}
+
+nav li {
+	display: inline;
+	margin-left: 60px;
+}
+
+nav a {
+	color: black;
+	font-family: 'Shadows Into Light', cursive;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid #142F67;
+	border-radius: 20px;
+	display: inline-block;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 50ms;
+}
+
+nav a:hover::before {
+  width: 10%;
+}
+
+h2 {
+	color: black;
+	font-family: 'Shadows Into Light', cursive;
+	text-align: center;
+}
+
+#h2{
+	text-align: inherit;
+}
+
+.flaLeft {
+	float: left;
+	width: 144px;
+    height: 793px;
+    list-style: none;
+}
+
+#flavors {
+	padding-left: 22px;
+}
+
+#img1 {
+	text-align: left;
+
+	margin-left: 189px;
+}
+
+#position {
+    width: 84%;
+    bottom: 5px;
+    left: 9px;
+    float: left;
+}
+
+h3 {
+	color: white;
+	font-family: 'Germania One', cursive;
+	padding-left: 380px;
+}
+
+#img2 {
+
+}
+
+#position2 {
+	position: relative;
+    right: 60px;
+    top: -34px;
+    text-align: center;
+}
+
+#social {
+	padding-left: 500px;
+}
+
+#footer {
+	color: white;
+
+	text-align: center;
+	margin-right: 240px;
+} 
+
+@media screen and (max-width: 700px){
+	#wrap {
+		width: 85%;
+		height: 970px;
+	}
+	nav ul {
+		padding-top: 0;
+	}
+	nav li {
+		display: block;
+		padding: 1% 23%;
+		border-bottom: 1px dashed #333333;
+	}
+	nav a {
+		text-decoration: none;
+	}
+	#img1 {
+		display: none;
+	}
+	#img2 {
+		display: none;
+	}
+	.flaLeft {
+		padding-bottom: 30px;
+   	 	list-style: none;
+    	height: 530px;
+	}
+	h3{
+		padding: 75px;
+	}
+	#social {
+		padding: 1%;
+		margin-left: 150px;
+   		margin-top: -14px;
+	}
+	
+}

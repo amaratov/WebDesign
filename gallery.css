@@ -1,0 +1,122 @@
+body {
+	background-image: url(images/bpic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	color: black;
+	font-family: 'Permanent Marker', cursive;
+	text-align: center;
+}
+
+#wrap {
+	margin: auto;
+	width: 1010px;
+	background-color: #ffffff75;
+	padding: 2%;
+	border-color: silver;
+	border-radius: 2%;
+}
+
+nav ul {
+	list-style: none;
+	padding: 1px;
+	margin-left: -22px;
+
+}
+
+nav li {
+	display: inline;
+	margin-left: 60px;
+}
+
+nav a {
+	color: black;
+	font-family: 'Shadows Into Light', cursive;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid #142F67;
+	border-radius: 20px;
+	display: inline-block;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 50ms;
+}
+
+nav a:hover::before {
+  width: 10%;
+}
+
+h2 {
+	text-shadow: 2px 1px silver;
+	padding-left: 330px;
+}
+
+#carouselExampleIndicators {
+	margin-left: 140px;
+	width: 700px;
+}
+
+#social {
+	padding-left: 475px;
+}
+
+#footer {
+	color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+	#wrap{
+		width: 100%;
+	}
+	nav ul {
+		padding-top: 0;
+	}
+	nav li {
+		display: block;
+		padding: 1% 23%;
+		border-bottom: 1px dashed #333333;
+	}
+	nav a {
+		text-decoration: none;
+	}
+	h2{
+		display: block;
+		padding: 1% 10%;
+	}
+	#carouselExampleIndicators {
+	margin-left: 10px;
+	width: 380px;
+	padding: 1%;
+	}
+	#social {
+		padding: 1%;
+		margin-left: 180px;
+   		margin-top: -14px;
+	}
+}

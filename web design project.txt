@@ -1,0 +1,39 @@
+Our customer: https://crazyjoesshishacafe.com/
+
+By Sublime Text editor.
+
+1) Home page References
+ - background image retrieved from: https://www.sketchuptextureclub.com/public/texture/0002-floral-wallpaper-texture-seamless.jpg
+ - inside images: http://hfruits.ukit.me/uploads/s/k/v/u/kvumbbcwchhs/img/full_ycCw6EKf.jpg
+   https://moskalyan.com/wp-content/uploads/2018/09/p8.jpg
+   http://bluemoonhookahlounge.com/images/50hook.jpg
+ - font family retrieved from: https://fonts.google.com/
+   h1: 'Permanent Marker', cursive;
+   h2: 'Germania One', cursive;
+   h3: 'Germania One', cursive;
+   nav a: 'Shadows Into Light', cursive;
+ - social media picures:
+	facebook- https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/600px-Facebook_logo_%28square%29.png
+	instagram- http://worldartsme.com/images/instagram-symbols-clipart-1.jpg
+
+2) About and Menu page
+ - working with text 
+	mostly i used w3school.com 
+ - font family retrieved from: https://fonts.google.com/
+   h1, h2: 'Permanent Marker', cursive;
+   nav a: 'Shadows Into Light', cursive;
+ - mobile screen i used: <meta name="viewport" content="width=device-width, initial-scale=1">
+
+3) Gallery 
+ - Images retrieved from: https://crazyjoesshishacafe.com/gallery
+ - For the slideshow i used bootstrap: https://getbootstrap.com/docs/4.0/components/carousel/ 
+ - Font family retrieved from: https://fonts.google.com/
+    h1: 'Permanent Marker', cursive;
+
+4) Location 
+ - font family retrieved from: https://fonts.google.com/
+   h1: 'Permanent Marker', cursive;
+   nav a: 'Shadows Into Light', cursive;
+ - images: https://www.google.com/maps/place/Crazy+Joe's+Shisha+Cafe/@42.9630777,-81.2613207,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMzlF5POZ2g4-UYJcEIx3VG1W5hv7-oDY7LQAYI!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMzlF5POZ2g4-UYJcEIx3VG1W5hv7-oDY7LQAYI%3Dw203-h203-k-no!7i1024!8i1024!4m5!3m4!1s0x882ef184eb27c2bd:0x2ff25e0eeab3e7d4!8m2!3d42.9630611!4d-81.2617544
+ - content retrieved from: https://crazyjoesshishacafe.com/location
+   
